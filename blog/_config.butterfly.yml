@@ -7,23 +7,24 @@
 #   name: link || icon
 
 menu:
-  # Home: / || fas fa-home
-  # Archives: /archives/ || fas fa-archive
-  # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
+   主页: / || fas fa-home
+   文章: /archives/ || fas fa-archive
+   #Tags: /tags/ || fas fa-tags
+   #Categories: /categories/ || fas fa-folder-open
+   List||fas fa-list:
+     Music: /music/ || fas fa-music
+     Movie: /movies/ || fas fa-video
+   Link: /link/ || fas fa-link
+   关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
 
 # Code Blocks (代碼相關)
 # --------------------------------------
-
+#代码高亮主题
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+#代码支持复制
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -82,16 +83,16 @@ katex:
 # Favicon（網站圖標）
 favicon: /img/favicon.png
 
-# Avatar (頭像)
+# Avatar (头像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
-  effect: false
+  img: /img/avatar.jpg
+  effect: false #头像会一直旋转
 
 # Disable all banner image
 disable_top_img: false
 
-# The banner image of home page
-index_img:
+# 主页封面顶部图片
+index_img: /img/background.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -101,7 +102,7 @@ archive_img:
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: /img/background.jpg
 
 # The banner image of tag page
 # format:
@@ -110,7 +111,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: /img/background.jpg
 
 # The banner image of category page
 # format:
@@ -118,7 +119,7 @@ category_img:
 category_per_img:
 
 cover:
-  # display the cover or not (是否顯示文章封面)
+  # display the cover or not (是否展示文章封面)
   index_enable: true
   aside_enable: true
   archives_enable: true
@@ -301,7 +302,7 @@ gitalk:
   repo:
   owner:
   admin:
-  language: en # en, zh-CN, zh-TW, es-ES, fr, ru
+  language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
   perPage: 10 # Pagination size, with maximum 100.
   distractionFreeMode: false # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
@@ -471,7 +472,7 @@ site_verification:
 
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
-
+#修改主题颜色
 # theme_color:
 #   enable: true
 #   main: "#49B1F5"
@@ -500,8 +501,8 @@ index_top_img_height:
 category_ui: # 留空或 index
 tag_ui: # 留空或 index
 
-# Website Background (設置網站背景)
-# can set it to color or image (可設置圖片 或者 顔色)
+# Website Background (设置网站背景)
+# can set it to color or image (可以是图片或者颜色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 background:
 
@@ -558,7 +559,7 @@ fireworks:
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
@@ -627,7 +628,7 @@ subtitle:
 # Loading Animation (加載動畫)
 preloader: false
 
-# aside (側邊欄)
+# aside (侧边栏)
 # --------------------------------------
 
 aside:
@@ -635,18 +636,19 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   card_author:
     enable: true
-    description:
+    description: 我就是我，不一样的烟火🎆
     button:
       enable: true
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/xxxxxx
+  #公告
   card_announcement:
-    enable: true
-    content: This is my Blog
+    enable: false
+    content: 认真的做一个博客，记录自己的成长历程！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
