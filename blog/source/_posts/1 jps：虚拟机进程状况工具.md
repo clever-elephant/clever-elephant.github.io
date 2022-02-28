@@ -1,10 +1,12 @@
-```
+---
 title: 虚拟机性能监控，故障处理工具
 date: 2022-02-27
 tags: jvm
 categories: Java学习
 cover: /img/cover/jvm.jpg
-```
+---
+
+
 
 ## 1 jps：虚拟机进程状况工具
 
