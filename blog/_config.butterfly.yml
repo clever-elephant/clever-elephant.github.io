@@ -93,7 +93,7 @@ disable_top_img: false
 
 # 主页封面顶部图片
 #index_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
-index_img: /img/topimg.jpg
+index_img: /img/topimg.png
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:

@@ -8,7 +8,7 @@ cover: /img/cover/jvm.jpg
 
 # 实战：OutOfMemoryError异常
 
-## 1 Java堆异常
+## Java堆异常
 
 - 异常代码
 
@@ -41,7 +41,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 	at per.zida.jvm.error.HeapOOM.main(HeapOOM.java:20)
 ```
 
-## 2 虚拟机栈和本地方法栈溢出
+## 虚拟机栈和本地方法栈溢出
 
 > 栈容量是通过`-Xss`参数来设定的，在《Java虚拟机规范》中描述了两种异常：
 >
@@ -70,5 +70,5 @@ public class JavaVMStackSOF {
 }
 ```
 
-## 3 方法区和运行时常量池溢出
+## 方法区和运行时常量池溢出
 
