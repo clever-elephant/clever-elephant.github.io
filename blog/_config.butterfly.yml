@@ -42,9 +42,9 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fa-brands fa-weixin: /img/avatar.jpg || Github
-  fa-brands fa-qq: https://qm.qq.com/cgi-bin/qm/qr?k=4rmr7EGDCSDnsxda2dqnjlcNwnT5ahOk&noverify=0 || QQ
-  fas fa-envelope: wzd7009@gmail.com || Email
+  #fa-brands fa-weixin: /img/avatar.jpg || Github
+  #fa-brands fa-qq: https://qm.qq.com/cgi-bin/qm/qr?k=4rmr7EGDCSDnsxda2dqnjlcNwnT5ahOk&noverify=0 || QQ
+  #fas fa-envelope: wzd7009@gmail.com || Email
 
 # search (搜索)
 # --------------------------------------
@@ -842,7 +842,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
+    - <div class="aplayer no-destroy" data-id="3062954146" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
     # - <script src="xxxx"></script>
 
 # CDN
