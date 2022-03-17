@@ -3,6 +3,7 @@ date: 2022-3-10
 title: SpringBoot核心运行原理
 tags: SpringBoot
 categories: Java学习
+cover: /img/cover/springboot_1.png
 ---
 
 # SpringBoot核心运行原理
